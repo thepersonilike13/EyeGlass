@@ -1,0 +1,38 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+matplotlib = ">=3.3.0"
+pyyaml = ">=5.3.1"
+opencv-python = ">=4.6.0"
+pillow = ">=7.1.2"
+requests = ">=2.23.0"
+scipy = ">=1.4.1"
+torch = ">=1.8.0"
+torchvision = ">=0.9.0"
+tqdm = ">=4.64.0"
+psutil = "*"
+py-cpuinfo = "*"
+thop = ">=0.1.1"
+pandas = ">=1.1.4"
+seaborn = ">=0.11.0"
+ipython = "*"
+check-manifest = "*"
+pre-commit = "*"
+pytest = "*"
+pytest-cov = "*"
+coverage = {extras = ["toml"], version = "*"}
+mkdocs-material = ">=9.5.9"
+mkdocstrings = {extras = ["python"], version = "*"}
+mkdocs-jupyter = "*"
+mkdocs-redirects = "*"
+jupyter = "*"
+ultralytics = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
+python_full_version = "3.10.13"
