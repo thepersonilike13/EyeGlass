@@ -1,9 +1,11 @@
 from ultralytics import YOLO
+from ultralytics import YOLOWorld
 import cv2
 import time
 
 
-model = YOLO("../models/best.pt")
+# model = YOLO("../models/best.pt")
+model = YOLOWorld("../models/yolov8x-worldv2.pt")
 
 # Make this run for only 20 seconds
 def runner(timer):
