@@ -11,7 +11,7 @@ model = YOLOWorld("../models/yolov8x-worldv2.pt")
 def runner(timer):
     start = time.time()
     while time.time()< start + timer:
-        model.predict(source='0',show=True)
+        a=model.predict(source='0')
     cv2.destroyAllWindows()
 
 
